@@ -1,0 +1,88 @@
+FAV FOOD
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Food</title>
+    <style>
+      h1 {
+        position: absolute;
+        top: 140px;
+        left: 250px;
+      }
+      h3 {
+        color: black;
+        text-align: center;
+      }
+	      p{
+        color: white;
+        text-align: center;
+      }
+      .food_image {
+        width: 50%;
+        height: 50%;
+      }
+
+      img {
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        padding-left: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div style="background-color: powerblue" class="food_image">
+          <img
+            id="titleImage"
+            src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
+            alt="pic3"
+          />
+          <h1 id="titleName">I Love Foods !!</h1>
+        </div>
+        <div style="background-color: red" class="food_image">
+          <h3 id="favFood1">FRIDE RICE</h3>
+          <p id="foodDescription1">fast and tasty food</p>
+          <img id="favFoodImage1"
+            src=https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vegrecipesofindia.com%2Fveg-fried-rice-recipe%2F&psig=AOvVaw0ZwTbZcKs20vVkUy-nGH2d&ust=1672105026841000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDTjdmSlvwCFQAAAAAdAAAAABAg
+          />
+        </div>
+        <div style="background-color: blue" class="food_image">
+          <h3 id="favFood2">PANI PURI</h3>
+          <p id="foodDescription2">Prepare your own food</p>
+          <img id="favFoodImage2"
+            src=https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.awesomecuisine.com%2Frecipes%2F138%2Fpani-puri%2F&psig=AOvVaw1IRvxrD2_hobHUewd9sjbx&ust=1672104804984000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCplu-RlvwCFQAAAAAdAAAAABAE
+          />
+        </div>
+        <div style="background-color: orange" class="food_image">
+          <h3 id="favFood3">SAMOSA</h3>
+          <p id="foodDescription3">Cheat and eat</p>
+          <img id="favFoodImage3"
+            src=https://www.google.com/url?sa=i&url=https%3A%2F%2Frecipes.timesofindia.com%2Frecipes%2Fbaked-samosa-by-pankaj-bhadouria%2Frs55453664.cms&psig=AOvVaw2LoEkAQ7dwJYsqPoCZlBGZ&ust=1672104679593000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCICAxrORlvwCFQAAAAAdAAAAABAE
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("images");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
